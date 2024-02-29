@@ -1,0 +1,7 @@
+codebot_env/
+data/
+drafts/
+logs/
+.vscode/
+.empty/
+tests/
