@@ -1,0 +1,6 @@
+agents==1.4.0
+components==1.2.8
+langchain==0.1.9
+langchain_openai==0.0.8
+openai==1.13.3
+streamlit==1.31.1
