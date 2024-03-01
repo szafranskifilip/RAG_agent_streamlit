@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+
 
 from langchain.vectorstores import FAISS
 from langchain.memory import ConversationSummaryMemory
@@ -20,8 +20,6 @@ st.set_page_config(
     initial_sidebar_state="auto",
     menu_items=None,
 )
-
-openai.api_key = st.secrets.openai_key
 
 st.title("Chat with the NYC Building Code Assistant! 💬")
 st.info(
