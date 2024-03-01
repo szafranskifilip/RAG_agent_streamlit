@@ -12,6 +12,10 @@ from langchain.agents import AgentExecutor, create_openai_functions_agent
 from utils.prompts import system_message
 from utils.openai_utils import get_openai
 from knowledge.retrievals import load_faiss_retrieval
+import openai
+import streamlit as st
+
+openai.api_key = st.secrets['openai_key']
 
 st.set_page_config(
     page_title="Chat with the NYC Building Code Assistant!",
